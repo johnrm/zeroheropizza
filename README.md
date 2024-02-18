@@ -1,39 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Double Oh Pizza
 
-Welcome,
+## Repository
+https://github.com/johnrm/double-oh-pizza
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Objective
+The Client, 'Double Oh Pizza',  has requested a website built to showcase products and services.<br>
+Double Oh Pizza provide pop-up Pizza service on a schedule for localities similar to ice-cream van as well as local markets.<br>
+The naming comes from the exclusive use of Doppio Zero flour in the dough.<br>
+Double Oh Pizza also caters for corporate events and private parties.<br>
+Double Oh Pizza emphasis is on excellent service and top quality product, this should be reflected in a high-quality and professional website.<br>
+Target catchment area is predominately East Cork and Markets in Cork City<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Steps
+Establish project plan and milestones(below).<br>
+Create README.md detailing purpose and target audience(This document).<br>
+Estimate cost and timeframe. Once agreed and signed-off, proceed with development adhering to key dates.<br>
 
-## Codeanywhere Reminders
+## Project Milestones
+(9am on each date)<br>
+2024.02.11 - Rate and terms agreed with client - Project starts.<br>
+2024.02.12 - Create Gitpod Repository.<br>
+2024.02.12 - Project plan completed.<br>
+2024.02.13 - Verbage, daily schedule, menu, details of extra services and customer testimonials to be provided by client.<br>
+2024.02.14 - Wireframe and Mockups in Figma.<br>
+2024.02.20 - Build out site.<br>
+2024.02.28 - Refine and troubleshhot site adding.<br>
+2024.03.05 - Go-live.<br>
+2024.03.07 - Final site testing, validation, hand-over and sign-off.<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Pages required
+Landing page.<br>
+Menu to showcase food.<br>
+Party extras - Drink options.<br>
+Customer Feedback.<br>
+About Four Fifty Pizza and Contact the team.<br>
 
-`python3 -m http.server`
+# Wireframe
+WIreframe for Mobile device provided to show one perspective of the requirement.<br>
+![Wireframe of proposed site](/assets/images/Wireframe.jpg)<br>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Pre-go-live testing.
+Ensure all images have appropriate alt text.<br>
+Ensure all pages are working correctly and responsive.<br>
+Ensure all code is validated <br>
+Ensure contact requests are working successfully.<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+# Credits
+Favicons courtesy of favicon.io
