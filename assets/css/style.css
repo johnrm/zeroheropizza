@@ -52,9 +52,20 @@ h1 {
     border-bottom: 1px solid black;;
 }
 
+/* Navbar styles and dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    box-shadow: 0 1px 2px #888888;
+    display: none;
+}
+
 /* Main */
 main {
-    background-color: #ffffff;
+    background-color: #888888;
     /* Fill surplus space and push footer to bottom of page */
     flex: 1 0 auto;
 }
