@@ -1,14 +1,14 @@
-# Zero Hero Pizza
+# Zero Pizza
 
 ## Repository
-https://github.com/johnrm/zeroheropizza
+https://github.com/johnrm/zeropizza
 
 ## Objective
-The Client, 'Zero Hero Pizza',  has requested a website built to showcase products and services.<br>
-Zero Hero Pizza provide pop-up Pizza service on a schedule for localities similar to ice-cream van as well as local markets.<br>
+The Client, 'Zero Pizza',  has requested a website built to showcase products and services.<br>
+Zero Pizza provide pop-up Pizza service on a schedule for localities similar to ice-cream van as well as local markets.<br>
 The naming comes from the exclusive use of Doppio Zero flour in the dough.<br>
-Zero Hero Pizza also caters for corporate events and private parties.<br>
-Zero Hero Pizza emphasis is on excellent service and top quality product, this should be reflected in a high-quality and professional website.<br>
+Zero Pizza also caters for corporate events and private parties.<br>
+Zero Pizza emphasis is on excellent service and top quality product, this should be reflected in a high-quality and professional website.<br>
 Target catchment area is predominately East Cork and Markets in Cork City<br>
 
 ## Steps
@@ -33,7 +33,7 @@ Landing page.<br>
 Menu to showcase food.<br>
 Party extras - Drink options.<br>
 Customer Feedback.<br>
-About Zero Hero Pizza and Contact the team.<br>
+About Zero Pizza and Contact the team.<br>
 
 # Wireframe
 Wireframe for Mobile device provided to show one perspective of the requirement.<br>
