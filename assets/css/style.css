@@ -39,6 +39,19 @@ h1 {
     color: #ff4444;
 }
 
+#menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid black;;
+}
+
 /* Main */
 main {
     background-color: #ffffff;
