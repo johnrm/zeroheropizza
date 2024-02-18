@@ -22,6 +22,10 @@ header {
     background-color: palegreen;
 }
 
+h1 {
+    font-family: 'Protest Strike', sans-serif;
+}
+
 main {
     background-color: grey;
     /* Fill surplus space and push footer to bottom of page */
