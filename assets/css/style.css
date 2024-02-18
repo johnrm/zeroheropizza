@@ -89,7 +89,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 750px;
+    height: 650px;
     width: 100%;
     background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
 }
@@ -141,7 +141,10 @@ main {
         /* Move main content down to avoid being obscured by header */
         margin-top: 75px;
     }
-    
+
+    #hero {
+        height: 1000px;
+        }
 }
 
 /* Media query: laptops and larger - 992px and up */
@@ -149,4 +152,9 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }    
+
+    #hero {
+        height: 800px;
+        }
+
 }
