@@ -18,6 +18,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 1px;
+    color: #ff4444;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -34,12 +40,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;    
-}
-
-h1 {
-    font-family: 'Protest Strike', sans-serif;
-    letter-spacing: 1px;
-    color: #ff4444;
 }
 
 #menu {
@@ -94,6 +94,21 @@ main {
     background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
 }
 
+#cover-text {
+    background-color: rgba(119, 119, 119, 0.7);
+    font-size: 120%;
+    position: absolute;
+    bottom: 70px;
+    width: 80%;
+    min-height: 180px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -142,9 +157,16 @@ main {
         margin-top: 75px;
     }
 
+/* Hero */
     #hero {
         height: 1000px;
         }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+
+    }
 }
 
 /* Media query: laptops and larger - 992px and up */
