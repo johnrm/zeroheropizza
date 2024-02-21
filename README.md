@@ -10,6 +10,7 @@ The naming comes from the exclusive use of Doppio Zero flour in the dough.<br>
 Zero Pizza also caters for corporate events and private parties.<br>
 Zero Pizza emphasis is on excellent service and top quality product, this should be reflected in a high-quality and professional website.<br>
 Target catchment area is predominately East Cork and Markets in Cork City<br>
+The purpose of the website is to establish a presence and showcase services.<br>
 
 ## Steps
 Establish project plan and milestones(below).<br>
@@ -31,9 +32,13 @@ Estimate cost and timeframe. Once agreed and signed-off, proceed with developmen
 ## Pages required
 Landing page.<br>
 Menu to showcase food.<br>
-Party extras - Drink options.<br>
 Customer Feedback.<br>
 About Zero Pizza and Contact the team.<br>
+
+## Site features
+brief desc.
+
+
 
 # Wireframe
 Wireframe for Mobile device provided to show one perspective of the requirement.<br>
@@ -45,5 +50,19 @@ Ensure all pages are working correctly and responsive.<br>
 Ensure all code is validated <br>
 Ensure contact requests are working successfully.<br>
 
-# Credits
+## Deployment
+Site code sits in Github repository detailed at the head of this document.<br>
+The development IDE used is Gitpod.<br>
+Code commits are pushed to Github as the code devdlops with brief relevant comments.<br>
+The live public site is published via Github Pages as follows...<br>
+In Github, from the Dashboard, navigate to 'johnrm/zeropizza' repository.<br>
+Select Settings > Under Code and Automation, select Pages (Github pages)<br>
+Under build and deployment, select the 'main' branch.<br>
+Click Save.<br>
+After a few minutes the site deploys is accessible here...<br>
+https://johnrm.github.io/zeropizza/<br>
+
+## Credits
 Favicons courtesy of favicon.io
+
+## Validate html and CSS
