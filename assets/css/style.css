@@ -13,15 +13,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-    color: black;
+    color: #464243;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
     font-family: 'Protest Strike', sans-serif;
     letter-spacing: 1px;
-    color: #ff4444;
     font-weight: normal;
 }
 
@@ -40,7 +38,11 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;    
+    color: inherit;
+}
+
+#logo {
+    font-size: 1.6rem;
 }
 
 #menu {
@@ -53,13 +55,13 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid black;;
+    border-bottom: 1px solid #464243;
 }
 
 /* Navbar styles and dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: white;
     width: 40%;
     padding: 0 1rem;
     left: 60%;
@@ -92,15 +94,44 @@ main {
     margin-top: 40px;
 }
 
-/* Hero section */
+/* Center headings */
+h2, h3 {
+    text-align: center;
+}
+
+#service {
+    margin: 5%;
+}
+
+#service div {
+    background-color: rgba(0,190,198,.7);
+}
+
+#service h2, #service h3 {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0,190,198,.7);
+}
+
+#service>div>h2, #service>div>h3 {
+    max-width: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Pizza */
 #pizza {
     background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
     height: 50vw;
     width: 90vw;
-    margin: 5%;
     border-radius: 30px 30px 30px 30px;
 }
 
+#rounding {
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
 /* Footer */
 #social-networks {
     text-align: center;
@@ -112,7 +143,7 @@ main {
 
 #social-networks i {
     font-size: 150%;
-    color:#6b6767
+    color: #464243;
 }
 
 /* Media query: tablets and larger - 768px and up */
