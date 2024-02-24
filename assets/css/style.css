@@ -85,16 +85,16 @@ nav {
 /* Main */
 main {
     /* Fill surplus space and push footer to bottom of page */
+    height: 100vh;
+    width: 100%;
+    background: url("../images/Pizza_wallpaper.jpg");
+    position: relative;
     flex: 1 0 auto;
     margin-top: 40px;
 }
 
 /* Hero section */
 #hero {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/Pizza_wallpaper.jpg");
-    position: relative;
 }
 
 #cover-text {
