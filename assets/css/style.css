@@ -135,6 +135,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        left: 0;
     }
 
     #menu {
