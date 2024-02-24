@@ -97,22 +97,6 @@ main {
 #hero {
 }
 
-#cover-text {
-    background-color: rgba(119, 119, 119, 0.7);
-    font-size: 120%;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 85%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 10px;
-}
-
-#cover-text > h2, #cover-text > h3 {
-    color: #ebe7e7;
-}
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -160,13 +144,6 @@ main {
     main {
         /* Move main content down to avoid being obscured by header */
         margin-top: 75px;
-    }
-
-/* Hero */
-    #cover-text {
-        width: 350px;
-        right: 50px;
-
     }
 }
 
