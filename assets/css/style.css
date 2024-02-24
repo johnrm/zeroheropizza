@@ -84,7 +84,6 @@ nav {
 
 /* Main */
 main {
-    /* Fill surplus space and push footer to bottom of page */
     height: 100vh;
     width: 100%;
     background: url("../images/Pizza_wallpaper.jpg");
@@ -94,7 +93,12 @@ main {
 }
 
 /* Hero section */
-#hero {
+#pizza {
+    background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
+    height: 50vw;
+    width: 90vw;
+    margin: 5%;
+    border-radius: 30px 30px 30px 30px;
 }
 
 /* Footer */
