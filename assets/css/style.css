@@ -60,14 +60,13 @@ header a {
 nav {
     position: absolute;
     background-color: #ffffff;
-    width: 100%;
+    width: 40%;
     padding: 0 1rem;
-    left: 65%;
+    left: 60%;
     text-align: left;
-    box-shadow: 0 1px 2px #888888;
     display: none;
     top: 100%;
-    border-radius: 0 0 0 10px;
+    border-radius: 0 0 20px 20px;
 }
 
 /* Nav toggle */
