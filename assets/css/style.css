@@ -86,7 +86,7 @@ nav {
 
 /* Main */
 main {
-    height: 150vh;
+    height: auto;
     width: 100%;
     background: url("../images/Pizza_wallpaper.jpg");
     position: relative;
@@ -120,7 +120,7 @@ h2, h3 {
     border-radius: 30px 30px 30px 30px;
 }
 
-.rounding {
+.border {
     border-radius: 15px;
     border: 1px solid black;
     padding: 10px;
