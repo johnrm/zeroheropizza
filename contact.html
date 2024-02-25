@@ -38,10 +38,32 @@
     </header>
     <!-- Main -->
     <main>
-        <div>
-            <p>We welcome inquiries for our food and service.Please provide your details and on the form below and we
-                will come back to you by the next working day to discuss your needs.Thanks! </p>
+        <section id="contact" class="margin5">
+            <div class="border">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Contact us!</h2>
+                <br>
+                <p>We welcome inquiries. Please provide your details on the form below and we
+                    will come back to you by the next working day to discuss your needs. Thanks!</p>
+                <br>
+                <label for="first-name">First Name</label><br>
+                <input type="text" name="first-name" required>
+                <br>
+                <label for="last-name">Last Name</label><br>
+                <input type="text" name="last-name" required>
+                <br>
+                <label for="phone">Phone</label><br>
+                <input type="text" name="phone" required>
+                <br>
+                <label for="email">email address</label><br>
+                <input type="email" name="email" required>
+                <br>
+                <label for="enquiry">Enquiry</label><br>
+                <textarea name="enquiry" rows="10" cols="30">Your enquiry here!</textarea>
+                <button type="submit" class="enquiry">Send Enquiry</button>
+            </form>
         </div>
+    </section>
     </main>
     <!-- footer -->
     <footer>
