@@ -101,11 +101,11 @@ h2, h3 {
     text-align: center;
 }
 
-#service {
+.margin5 {
     margin: 5%;
 }
 
-#service div {
+#service div, #feedback div {
     background-color: rgba(255, 252, 242, 0.911);
 }
 
