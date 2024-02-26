@@ -109,6 +109,11 @@ h2, h3 {
     margin: 5%;
 }
 
+#contact {
+    max-width: 300px;
+    left: 10%;
+}
+
 #service div, #feedback div, #pizza-menu div, #contact div {
     background-color: rgba(255, 252, 242, 0.911);
 }
