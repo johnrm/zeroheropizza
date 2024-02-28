@@ -104,13 +104,13 @@ main {
 }
 
 /* Center headings */
-h2, h3 {
+h2, h3, .center-text {
     text-align: center;
 }
 
 /* Set margins for sections */
 section {
-    margin: 2%;
+    margin: 10px 5%;
 }
 
 #contact-form {
@@ -198,6 +198,10 @@ button {
         /* Move main content down from header */
         margin-top: 85px;
         display: flex;
+    }
+
+    #thanks {
+        width: 50%;
     }
 }
 
