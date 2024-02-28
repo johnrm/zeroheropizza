@@ -114,6 +114,10 @@ h2, h3 {
     left: 10%;
 }
 
+#contact-form > p {
+    text-align: center;  
+}
+
 #service div, #feedback div, #pizza-menu div, #contact div {
     background-color: rgba(255, 252, 242, 0.911);
 }
@@ -188,8 +192,9 @@ button {
     }
 
     main {
-        /* Move main content down to avoid being obscured by header */
+        /* Move main content down from header */
         margin-top: 85px;
+        display: flex;
     }
 }
 

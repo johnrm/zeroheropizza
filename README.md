@@ -39,9 +39,11 @@ Contact the team.<br>
 ### Navigation
 The business name is at the top of each page.
 The Burger icon and links to the right link to their respective pages.
+### The Menu Page
+### The Feedback Page
+### The Contact Page
 
-![alt Screenshot of ](image.png)
-
+![alt Screenshot of Header and Navigation](assets/images/rm_header.png)
 
 # Wireframe
 Wireframe for Mobile device provided to show one perspective of the requirement.<br>
