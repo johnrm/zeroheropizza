@@ -30,14 +30,17 @@ Estimate cost and timeframe. Once agreed and signed-off, proceed with developmen
 2024.03.07 - Final site testing, validation, hand-over and sign-off.<br>
 
 ## Pages required
-Landing page.<br>
+Home/Landing/About page.<br>
 Menu to showcase food.<br>
 Customer Feedback.<br>
-About Zero Pizza and Contact the team.<br>
+Contact the team.<br>
 
 ## Site features
-brief desc.
+### Navigation
+The business name is at the top of each page.
+The Burger icon and links to the right link to their respective pages.
 
+![alt Screenshot of ](image.png)
 
 
 # Wireframe
