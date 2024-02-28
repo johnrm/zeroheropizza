@@ -108,7 +108,8 @@ h2, h3 {
     text-align: center;
 }
 
-.margin5 {
+/* Set margins for sections */
+section {
     margin: 2%;
 }
 
