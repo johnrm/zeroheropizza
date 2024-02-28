@@ -109,10 +109,10 @@ h2, h3 {
 }
 
 .margin5 {
-    margin: 5%;
+    margin: 2%;
 }
 
-#contact {
+#contact-form {
     max-width: 300px;
     left: 10%;
 }
@@ -127,7 +127,9 @@ h2, h3 {
     border: 1px solid black;
     padding: 10px;
     height: auto;
-    text-align: center;
+    width: 100%;
+    /*text-align: center;*/
+    box-shadow: 9px 9px 15px rgba(255, 252, 242, 0.95);
   }
 
 /* Pizza picture */
