@@ -98,6 +98,9 @@ main {
     position: relative;
     flex: 1 0 auto;
     margin-top: 39px;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
 }
 
 /* Center headings */
@@ -115,31 +118,28 @@ h2, h3 {
 }
 
 #contact-form > p {
-    text-align: center;  
-}
-
-#service div, #feedback div, #pizza-menu div, #contact div {
-    background-color: rgba(255, 252, 242, 0.911);
-}
-
-#service>div>h2, #service>div>h3 {
-    border-radius: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 .border {
+    background-color: rgba(255, 252, 242, 0.911);
     border-radius: 15px;
     border: 1px solid black;
     padding: 10px;
     height: auto;
+    text-align: center;
   }
-  
-/* Pizza */
-#pizza {
+
+/* Pizza picture */
+#pizza-pic {
     background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
     height: 50vw;
     width: 90vw;
     max-height: 300px;
-    max-width: 450px;    
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer */
