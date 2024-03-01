@@ -1,3 +1,4 @@
+/*fixed*/
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -31,7 +32,6 @@ header {
     z-index: 99;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #000000;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -43,7 +43,7 @@ header a {
 }
 
 #logo {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 #menu {
@@ -66,19 +66,19 @@ header a {
 /* Navbar styles and dropdown toggle */
 nav {
     position: absolute;
-    background-color: rgba(255, 252, 242, 0.911);
-    width: 40%;
+/*    background-color: rgba(255, 252, 242, 0.95);
+*/    width: 40%;
     padding: 0 1rem;
     left: 60%;
     display: none;
     top: 100%;
     border-radius: 0 0 20px 20px;
-    border: 1px solid black;
     border-top-style: none;
 }
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
+    background-color: rgba(255, 252, 242, 0.911);
     display: block;
 }
 
@@ -103,9 +103,13 @@ main {
     display: flex;   
 }
 
-/* Center headings */
+/* Center headings, and center class */
 h2, h3, .center-text {
     text-align: center;
+}
+
+.hide-heading {
+    display: none;
 }
 
 /* Set margins for sections */
@@ -114,7 +118,7 @@ section {
 }
 
 #contact-form {
-    max-width: 300px;
+    width: 250px;
     left: 10%;
 }
 
@@ -125,12 +129,10 @@ section {
 .border {
     background-color: rgba(255, 252, 242, 0.911);
     border-radius: 15px;
-/*    border: 1px solid black;*/
     padding: 10px;
     height: auto;
     width: 100%;
-    /*text-align: center;*/
-/*    box-shadow: 9px 9px 15px rgba(255, 252, 242, 0.95); */
+    margin-bottom: 2%;
   }
 
 /* Pizza picture */
@@ -140,11 +142,25 @@ section {
     width: 90vw;
     max-height: 300px;
     max-width: 450px;
-    display: block;
-    margin-left: auto;
+/*    display: block;
+*/    margin-left: auto;
     margin-right: auto;
 }
 
+#combo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+#services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content:end;
+/*    row-gap: 10%;
+/*    margin: 10% 20%;*/
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -192,8 +208,8 @@ button {
     }
 
     #logo {
-        font-size: 300%;
-        line-height: 75px;
+        font-size: 2.5rem;
+        line-height: 80px;
         margin: 0 0.5rem;
     }
 
@@ -203,6 +219,21 @@ button {
         display: flex;
     }
 
+    section .service {
+        display: flex;
+        width: 45%;
+        margin: 10px;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #services {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
     #thanks {
         width: 50%;
     }
