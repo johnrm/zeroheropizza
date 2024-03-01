@@ -19,7 +19,9 @@ body {
     background-color: rgba(255, 252, 242, 0.911);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Protest Strike', sans-serif;
     letter-spacing: 1px;
     font-weight: normal;
@@ -53,7 +55,7 @@ header a {
     letter-spacing: 2px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
     display: flex;
     justify-content: center;
@@ -66,8 +68,9 @@ header a {
 /* Navbar styles and dropdown toggle */
 nav {
     position: absolute;
-/*    background-color: rgba(255, 252, 242, 0.95);
-*/    width: 40%;
+    /*    background-color: rgba(255, 252, 242, 0.95);
+*/
+    width: 40%;
     padding: 0 1rem;
     left: 60%;
     display: none;
@@ -83,7 +86,7 @@ nav {
 }
 
 #nav-toggle {
-    display:none;
+    display: none;
 }
 
 .nav-toggle-label {
@@ -100,12 +103,19 @@ main {
     margin-top: 39px;
     justify-content: center;
     align-items: center;
-    display: flex;   
+    display: flex;
 }
 
-/* Center headings, and center class */
-h2, h3, .center-text {
+/* Headings and text classes */
+h2,
+h3,
+.center-text {
     text-align: center;
+}
+
+.left-text div,
+.left-text div h3 {
+    text-align: left;
 }
 
 .hide-heading {
@@ -117,12 +127,21 @@ section {
     margin: 10px 5%;
 }
 
+#schedule {
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+#schedule div p {
+    text-align: center;
+}
+
 #contact-form {
     width: 250px;
     left: 10%;
 }
 
-#contact-form > p {
+#contact-form>p {
     text-align: center;
 }
 
@@ -133,7 +152,7 @@ section {
     height: auto;
     width: 100%;
     margin-bottom: 2%;
-  }
+}
 
 /* Pizza picture */
 #pizza-pic {
@@ -142,8 +161,7 @@ section {
     width: 90vw;
     max-height: 300px;
     max-width: 450px;
-/*    display: block;
-*/    margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -152,15 +170,16 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
 }
-    
+
 #services {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    justify-content:end;
-/*    row-gap: 10%;
+    justify-content: end;
+    /*    row-gap: 10%;
 /*    margin: 10% 20%;*/
 }
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -184,6 +203,7 @@ button {
 
 /* Media query: tablets and larger - 768px and up */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -199,7 +219,7 @@ button {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -227,13 +247,13 @@ button {
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     #services {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     #thanks {
         width: 50%;
     }
@@ -243,6 +263,6 @@ button {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-    }    
+    }
 
 }
