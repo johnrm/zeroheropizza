@@ -105,20 +105,20 @@ main {
     display: flex;
 }
 
-/* Headings and text classes */
+
+/* Align text center */
 h2,
 h3,
-.center-text {
+.center-text,
+#schedule div p,
+#contact-form>p {
     text-align: center;
 }
 
+/* Align text left */
 .left-text div,
 .left-text div h3 {
     text-align: left;
-}
-
-.hide-heading {
-    display: none;
 }
 
 /* Set margins for sections */
@@ -128,20 +128,16 @@ section {
 
 #schedule {
     width: 100%;
-    flex-wrap: wrap;
 }
 
-#schedule div p {
-    text-align: center;
+#map,
+#schedule>div {
+    flex-grow: 1;
 }
 
 #contact-form {
     width: 250px;
     left: 10%;
-}
-
-#contact-form>p {
-    text-align: center;
 }
 
 .border {
@@ -156,7 +152,7 @@ section {
 .borderpizza {
     background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
     color: white;
-    text-shadow:2px 2px 10px #000000ff, 1px 1px 10px #ccc;
+    text-shadow: 2px 2px 10px #000000ff, 1px 1px 10px #ccc;
     background-color: rgba(255, 252, 242, 0.5);
     border-radius: 15px;
     padding: 10px;
