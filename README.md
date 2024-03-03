@@ -87,3 +87,18 @@ Pizza_wallpaper.jpg - Courtesy of Adobe. Art by Ngupakarti<br>
 classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-medium.mp4 courtesy of www.pexels.com<br>
 
 ## Validate html and CSS
+A feature that was going to go into the site was a live Google Map on the index page to accompany locatons.<br>
+While validating I found that it failed.<br>
+Code snippet here...<br>
+
+```
+            <div id="map">
+                <iframe
+                src="https://www.google.com/maps/d/embed?mid=1vGMCsnZHs91CGv4S2h5phSu21rrh6fM&hl=en&ehbc=2E312F"
+                width="100%" height="250"></iframe>
+            </div>
+```
+
+width="100%" works but is not valid so I cut the code out.<br>
+<br>
+All Code and CSS now validates.<br>
