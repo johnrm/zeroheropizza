@@ -40,11 +40,11 @@ A 404 page is included on the site in the event of broken links or missing pages
 ![alt Screenshot of 404 page](readme_images/404.jpg)
 
 ### The Menu Page
-Sample Pizzas with indicative kerbside pricing.<br>
+This page shows sample Pizza combinations with indicative kerbside pricing.<br>
 ### The Feedback Page
-Sample and placeholder feedback from customers.<br>
+This page shows sample and placeholder feedback from customers.<br>
 ### The Contact Page
-Allows clients, both current and potential to contact Zúm.<br>
+This page allows clients, both current and potential to contact Zúm.<br>
 A contact form allows users to get in touch.<br>
 The form has the following fields...<br>
 First Name (required, type=text)<br>
@@ -56,14 +56,15 @@ On successful submission, the user will be brought to a confirmation page.<br>
 
 ## Wireframe
 ([Index](#index))<br>
-Wireframe for Mobile device provided to show one perspective of the requirement.<br>
+Wireframe for Mobile device provided to show onepre-development perspective of the requirement.<br>
 ![Wireframe of proposed site](readme_images/Wireframe.jpg)<br>
 
 ## Testing and Go-live
 ([Index](#index))<br>
 Ensure all images have appropriate alt text.<br>
 Ensure all pages are working correctly and responsive.<br>
-Ensure all code is validated <br>
+Ensure all html is validated.<br>
+Ensure CSS is validated.<br>
 Ensure contact requests are working successfully.<br>
 
 ## Deployment
@@ -83,5 +84,6 @@ https://johnrm.github.io/zumpizza/<br>
 ([Index](#index))<br>
 Favicons courtesy of favicon.io<br>
 Pizza_wallpaper.jpg - Courtesy of Adobe. Art by Ngupakarti<br>
+classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-medium.mp4 courtesy of www.pexels.com<br>
 
 ## Validate html and CSS
