@@ -34,8 +34,10 @@ Small displays exhibit a Burger icon which when clicked pops-up clickable page l
 On larger displays a horizontal row of links is shown to the respective page.<br>
 ### Responsiveness
 The site has been tested for responsiveness and works well on mobile phone screen up to HD screen.
+![alt Screenshot of Responsiveness test](readme_images/amiresponsive.jpg)
 ### 404 page
 A 404 page is included on the site in the event of broken links or missing pages.<br>
+![alt Screenshot of 404 page](readme_images/404.jpg)
 
 ### The Menu Page
 Sample Pizzas with indicative kerbside pricing.<br>

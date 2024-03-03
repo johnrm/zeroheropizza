@@ -132,15 +132,18 @@ section {
     width: 90%;
 }
 
-#kerbside, #splash {
+#kerbside,
+#splash {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
 
-#schedule, #about {
+#schedule,
+#about {
     padding: 2% 0;
 }
+
 #contact-form {
     width: 250px;
     left: 10%;
@@ -246,7 +249,8 @@ button {
         display: flex;
     }
 
-    #kerbside, #splash {
+    #kerbside,
+    #splash {
         flex-direction: row;
     }
 
@@ -257,7 +261,7 @@ button {
         flex-grow: 1;
     }
 
-    .service {
+        .service {
         display: flex;
         width: 45%;
         margin: 10px;
