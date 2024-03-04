@@ -56,7 +56,9 @@ Last Name (required, type=text)<br>
 Phone number (required, type=text)<br>
 Email (required, type=email)<br>
 Message (required, type=textarea)<br>
-On successful submission, the user will be brought to a confirmation page.<br>
+On successful submission, the user will be brought to a Thank you page...<br>
+![Thank you page](readme_images/thanks.jpg)<br>
+
 
 ## Wireframe
 Wireframe for Mobile device provided to show onepre-development perspective of the requirement.<br>
