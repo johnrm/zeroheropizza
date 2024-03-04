@@ -57,7 +57,7 @@ On successful submission, the user will be brought to a confirmation page.<br>
 ## Wireframe
 ([Index](#index))<br>
 Wireframe for Mobile device provided to show onepre-development perspective of the requirement.<br>
-![Wireframe of proposed site](readme_images/Wireframe.jpg)<br>
+![Wireframe of proposed site](readme_images/wireframe.jpg)<br>
 
 ## Testing and Go-live
 ([Index](#index))<br>
@@ -87,3 +87,14 @@ Pizza_wallpaper.jpg - Courtesy of Adobe. Art by Ngupakarti<br>
 classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-medium.mp4 courtesy of www.pexels.com<br>
 
 ## Validate html and CSS
+HTML and CSS validation was successful on all pages except index.html.<br>
+<br>
+Index.html validation fails on this...
+
+```
+                <iframe
+                src="https://www.google.com/maps/d/embed?mid=1vGMCsnZHs91CGv4S2h5phSu21rrh6fM&hl=en&ehbc=2E312F"
+                width="100%" height="250"></iframe>
+```
+
+![Validation Error](readme_images/validation_error.jpg)<br>
