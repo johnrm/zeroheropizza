@@ -42,9 +42,12 @@ A 404 page is included on the site in the event of broken links or missing pages
 
 ### The Menu Page
 This page shows sample Pizza combinations with indicative kerbside pricing.<br>
+This page shows sample Pizza combinations with indicative kerbside pricing.<br>
 ### The Feedback Page
 This page shows sample and placeholder feedback from customers.<br>
+This page shows sample and placeholder feedback from customers.<br>
 ### The Contact Page
+This page allows clients, both current and potential to contact Zúm.<br>
 This page allows clients, both current and potential to contact Zúm.<br>
 A contact form allows users to get in touch.<br>
 The form has the following fields...<br>
@@ -64,6 +67,8 @@ Wireframe for Mobile device provided to show onepre-development perspective of t
 ## Testing and Go-live
 Ensure all images have appropriate alt text.<br>
 Ensure all pages are working correctly and responsive.<br>
+Ensure all html is validated.<br>
+Ensure CSS is validated.<br>
 Ensure all html is validated.<br>
 Ensure CSS is validated.<br>
 Ensure contact requests are working successfully.<br>
