@@ -127,9 +127,8 @@ section {
 }
 
 #splash,
-#map,
 #kerbside,
-#services {
+.services {
     width: 90%;
 }
 
@@ -189,7 +188,7 @@ section {
     margin-bottom: 0;
 }
 
-#services {
+.services {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -262,11 +261,12 @@ button {
 
     #schedule,
     #about,
+    #map,
     #pizza {
         flex-grow: 1;
     }
 
-        .service {
+    .service {
         display: flex;
         width: 45%;
         margin: 10px;
@@ -275,7 +275,7 @@ button {
         flex-wrap: wrap;
     }
 
-    #services {
+    .services {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
