@@ -133,6 +133,10 @@ section {
     width: 90%;
 }
 
+#err404 {
+    max-width: 300px;
+}
+
 #kerbside,
 #splash {
     display: flex;
@@ -280,6 +284,7 @@ button {
     #thanks {
         width: 50%;
     }
+
 }
 
 /* Media query: laptops and larger - 992px and up */
