@@ -40,6 +40,11 @@ The site has been tested for responsiveness and works well on mobile phone scree
 A 404 page is included on the site in the event of broken links or missing pages.<br>
 ![alt Screenshot of 404 page](readme_images/404.webp)
 
+### The Home Page
+This page contains a lot of detail.<br>
+The head of the page contains a synopsised About alongside a typical Pizza.<br>
+We then show a list of locations where daily service is available along with a map to help customers find us.<br>
+Lastly we present the list of services available.<br>
 ### The Menu Page
 This page shows sample Pizza combinations with indicative kerbside pricing.<br>
 This page shows sample Pizza combinations with indicative kerbside pricing.<br>
@@ -67,13 +72,12 @@ Wireframe for Mobile device provided to show onepre-development perspective of t
 ([Back to top](#index))<br>
 
 ## Testing and Go-live
-Ensure all images have appropriate alt text.<br>
-Ensure all pages are working correctly and responsive.<br>
-Ensure all html is validated.<br>
-Ensure CSS is validated.<br>
-Ensure all html is validated.<br>
-Ensure CSS is validated.<br>
-Ensure contact requests are working successfully.<br>
+All pages have been tested on Chrome and Edge and Safari.<br>
+Any images have appropriate alt text.<br>
+All pages are working correctly and responsive, tested in Chrome DevTools, Desktop, and on a mobile device.<br>
+Html has been validated.<br>
+CSS ha been validated.<br>
+Contact details are validated and requests are working successfully.<br>
 <br>
 ([Back to top](#index))<br>
 
@@ -84,9 +88,9 @@ This resulted from lack of understanding of Flexbox but this is a lot clearer no
 Flexbox Issues were principally on index.html but have been remedied.<br>
 <br>
 Foreground text on menu.html was barely visible regardless of font changes.<br>
-Updating CSS for .borderpizza with 'background-color: rgba(0, 0, 0, .4);' and 'background-blend-mode: multiply;' resolved this.<br>
+Updating CSS for '.borderpizza' with 'background-color: rgba(0, 0, 0, .4);' and 'background-blend-mode: multiply;' resolved this.<br>
 <br>
-I needed Mapping<br>
+Not a bug per se, but there was a Validation issue with iframe which is detailed in Validation section ([here](#validate-html-and-css))<br>
 <br>
 ([Back to top](#index))<br>
 
@@ -114,7 +118,7 @@ classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-mediu
 ([Back to top](#index))<br>
 
 ## Validate html and CSS
-HTML and CSS validation was successful with 2 exceptions.<br>
+HTML validation was successful with official W3C validator with 1 exception.<br>
 <br>
 Index.html validation fails on iframe width percentage. However, the code works without issue.
 
@@ -127,8 +131,10 @@ Index.html validation fails on iframe width percentage. However, the code works 
 ![Validation Error](readme_images/validation_error.webp)<br>
 <br>
 <br>
-CSS validation passes, but with a warning on Google Fonts...
+CSS validation passes the official(Jigsaw) validator but with a warning on Google Fonts...
 ![CSS Warning](readme_images/css_warning.webp)<br>
-
-
+<br>
+Accessibility score was 100% in Lighthouse tools in Chrome Developertools.<br>
+![Lighthouse](readme_images/lighthouse.jpg)<br>
+<br>
 ([Back to top](#index))<br>

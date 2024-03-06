@@ -223,6 +223,11 @@ button {
     font-weight: 600;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 #social-networks i {
     font-size: 150%;
     color: #464243;
