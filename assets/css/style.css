@@ -132,6 +132,10 @@ section {
     width: 90%;
 }
 
+#pizza-menu {
+    width: 80%;
+}
+
 #err404 {
     max-width: 300px;
 }
@@ -148,8 +152,15 @@ section {
     padding: 2% 0;
 }
 
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
 #contact-form {
-    width: 250px;
+    width: 300px;
     left: 10%;
 }
 
@@ -176,7 +187,7 @@ section {
     background-blend-mode: multiply;
 }
 
-/* Pizza picture */
+/* Pizza pictures */
 #pizza-pic {
     background: url("../images/classic-cheese-pizza.webp") no-repeat center center/cover;
     height: 50vw;
@@ -187,6 +198,7 @@ section {
     margin-right: auto;
     margin-bottom: 0;
 }
+
 
 .services {
     display: flex;
@@ -267,12 +279,8 @@ button {
     }
 
     .service {
-        display: flex;
         width: 45%;
         margin: 10px;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
     }
 
     .services {
@@ -280,6 +288,12 @@ button {
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
+    #contact {
+        width: 50%;
+        /* left: 10%; */
+    }
+    
 
     #thanks {
         width: 50%;

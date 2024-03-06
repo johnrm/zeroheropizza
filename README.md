@@ -1,13 +1,14 @@
 # Zúm Pizza
 ## Index
 * [Repository](#repository)
-* [Zúm Pizza](#zúm-Pizza)
-* [Site Features](#site-Features)
-* [Navigation](#navigation)
+* [Zúm Pizza](#zúm-pizza)
+* [Site Features](#site-features)
 * [Wireframe](#wireframe)
 * [Testing and Go-live](#testing-and-go-live)
+* [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
+* [Validate html and CSS](#validate-html-and-css)
 
 ## Repository
 https://github.com/johnrm/zumpizza
@@ -27,7 +28,6 @@ The purpose of the website is to establish a presence and showcase services.<br>
 ([Back to top](#index))<br>
 
 ## Site features
-### Site wide
 ### Navigation
 ![alt Screenshot of Header and Navigation](readme_images/header.webp)
 The business name is at the top of each page.<br>
@@ -77,6 +77,19 @@ Ensure contact requests are working successfully.<br>
 <br>
 ([Back to top](#index))<br>
 
+## Bugs
+This was a first project so there were number of bugs in the code.<br>
+There were layout issues throughout which were remedied from research online and some trial and error.<br>
+This resulted from lack of understanding of Flexbox but this is a lot clearer now.<br>
+Flexbox Issues were principally on index.html but have been remedied.<br>
+<br>
+Foreground text on menu.html was barely visible regardless of font changes.<br>
+Updating CSS for .borderpizza with 'background-color: rgba(0, 0, 0, .4);' and 'background-blend-mode: multiply;' resolved this.<br>
+<br>
+I needed Mapping<br>
+<br>
+([Back to top](#index))<br>
+
 ## Deployment
 Site code sits in Github repository detailed at the head of this document.<br>
 The development IDE used is Gitpod.<br>
@@ -93,7 +106,8 @@ https://johnrm.github.io/zumpizza/<br>
 
 ## Credits
 Favicons courtesy of favicon.io<br>
-Pizza_wallpaper.webp - Courtesy of Adobe. Art by Ngupakarti<br>
+pizza_wallpaper.webp - Courtesy of Adobe. Art by Ngupakarti<br>
+uncooked.webp - Courtesy of Adobe<br>
 classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-medium.mp4 courtesy of www.pexels.com<br>
 404.webp courtesy of James Longman @JamesAALongman<br>
 <br>
