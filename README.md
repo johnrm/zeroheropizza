@@ -29,16 +29,16 @@ The purpose of the website is to establish a presence and showcase services.<br>
 ## Site features
 ### Site wide
 ### Navigation
-![alt Screenshot of Header and Navigation](readme_images/header.png)
+![alt Screenshot of Header and Navigation](readme_images/header.webp)
 The business name is at the top of each page.<br>
 Small displays exhibit a Burger icon which when clicked pops-up clickable page links.
 On larger displays a horizontal row of links is shown to the respective page.<br>
 ### Responsiveness
 The site has been tested for responsiveness and works well on mobile phone screen up to HD screen.
-![alt Screenshot of Responsiveness test](readme_images/amiresponsive.jpg)
+![alt Screenshot of Responsiveness test](readme_images/amiresponsive.webp)
 ### 404 page
 A 404 page is included on the site in the event of broken links or missing pages.<br>
-![alt Screenshot of 404 page](readme_images/404.jpg)
+![alt Screenshot of 404 page](readme_images/404.webp)
 
 ### The Menu Page
 This page shows sample Pizza combinations with indicative kerbside pricing.<br>
@@ -57,12 +57,12 @@ Phone number (required, type=text)<br>
 Email (required, type=email)<br>
 Message (required, type=textarea)<br>
 On successful submission, the user will be brought to a Thank you page...<br>
-![Thank you page](readme_images/thanks.jpg)<br>
+![Thank you page](readme_images/thanks.webp)<br>
 
 
 ## Wireframe
 Wireframe for Mobile device provided to show onepre-development perspective of the requirement.<br>
-![Wireframe of proposed site](readme_images/wireframe.jpg)<br>
+![Wireframe of proposed site](readme_images/wireframe.webp)<br>
 <br>
 ([Back to top](#index))<br>
 
@@ -93,9 +93,9 @@ https://johnrm.github.io/zumpizza/<br>
 
 ## Credits
 Favicons courtesy of favicon.io<br>
-Pizza_wallpaper.jpg - Courtesy of Adobe. Art by Ngupakarti<br>
+Pizza_wallpaper.webp - Courtesy of Adobe. Art by Ngupakarti<br>
 classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-medium.mp4 courtesy of www.pexels.com<br>
-404.jpg courtesy of James Longman @JamesAALongman<br>
+404.webp courtesy of James Longman @JamesAALongman<br>
 <br>
 ([Back to top](#index))<br>
 
@@ -110,11 +110,11 @@ Index.html validation fails on iframe width percentage. However, the code works 
                 width="100%" height="250"></iframe>
 ```
 
-![Validation Error](readme_images/validation_error.jpg)<br>
+![Validation Error](readme_images/validation_error.webp)<br>
 <br>
 <br>
 CSS validation passes, but with a warning on Google Fonts...
-![CSS Warning](readme_images/css_warning.jpg)<br>
+![CSS Warning](readme_images/css_warning.webp)<br>
 
 
 ([Back to top](#index))<br>
