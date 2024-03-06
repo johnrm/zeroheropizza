@@ -92,6 +92,9 @@ Updating CSS for '.borderpizza' with 'background-color: rgba(0, 0, 0, .4);' and 
 <br>
 Not a bug per se, but there was a Validation issue with iframe which is detailed in Validation section ([here](#validate-html-and-css))<br>
 <br>
+Again, not a bug but validation of the thanks page was failing as I had width=100% and height=auto on the video element.<br>
+Removing these and placing in CSS corrected this.<br>
+<br>
 ([Back to top](#index))<br>
 
 ## Deployment
@@ -114,6 +117,7 @@ pizza_wallpaper.webp - Courtesy of Adobe. Art by Ngupakarti<br>
 uncooked.webp - Courtesy of Adobe<br>
 classic-cheese-pizza.webp, mixkit-close-up-shot-of-a-pepperoni-pizza-44001-medium.mp4 courtesy of www.pexels.com<br>
 404.webp courtesy of James Longman @JamesAALongman<br>
+Social Media code and some small code snippets were taken from CI Love Running Project.<br>
 <br>
 ([Back to top](#index))<br>
 
