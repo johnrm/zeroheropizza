@@ -1,7 +1,6 @@
 # Zúm Pizza
 ## Index
 * [Live site](#live-site)
-* [Repository](#repository)
 * [Zúm Pizza](#zúm-pizza)
 * [Site Features](#site-features)
 * [Wireframe](#wireframe)
@@ -15,13 +14,6 @@
 https://johnrm.github.io/zumpizza/
 <br>
 ([Back to top](#index))<br>
-
-
-## Repository
-https://github.com/johnrm/zumpizza
-<br>
-([Back to top](#index))<br>
-
 
 ## Zúm Pizza
 The Client, 'Zúm Pizza',  has requested a website built to showcase products and services.<br>
