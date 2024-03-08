@@ -138,7 +138,18 @@ Index.html validation fails on iframe width percentage. However, the code works 
 CSS validation passes the official(Jigsaw) validator but with a warning on Google Fonts...
 ![CSS Warning](readme_images/css_warning.webp)<br>
 <br>
-Accessibility score was 100% in Lighthouse tools in Chrome Developertools.<br>
-![Lighthouse](readme_images/lighthouse.jpg)<br>
+Accessibility score was 100% for accessibility for every page in Lighthouse tools in Chrome Developertools.<br>
+index.html<br>
+![Index](readme_images/LH_index.jpg)<br>
+menu.html<br>
+![Menu](readme_images/LH_menu.jpg)<br>
+feedback.html<br>
+![Feedback](readme_images/LH_feedback.jpg)<br>
+contact.html<br>
+![Contact](readme_images/LH_contact.jpg)<br>
+thanks.html<br>
+![Thanks](readme_images/LH_thanks.jpg)<br>
+404.html<br>
+![404](readme_images/LH_404.jpg)<br>
 <br>
 ([Back to top](#index))<br>
